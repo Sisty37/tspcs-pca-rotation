@@ -1,0 +1,7 @@
+dataset,model,k_mean,k_std,jaccard_mean,ks
+mnist,logreg,16.6,1.2,0.937,"[16, 19, 16, 16, 16]"
+mnist,rf,10.6,0.8,0.914,"[10, 12, 11, 10, 10]"
+fashion,logreg,15.6,2.8,0.807,"[19, 13, 19, 13, 14]"
+fashion,rf,10.0,1.095,0.869,"[11, 8, 10, 11, 10]"
+superconduct,ridge,25.6,1.2,0.957,"[25, 28, 25, 25, 25]"
+superconduct,rf,4.0,0.0,1.0,"[4, 4, 4, 4, 4]"

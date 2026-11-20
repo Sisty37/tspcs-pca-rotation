@@ -1,16 +1,16 @@
 <mxfile host="app.diagrams.net">
   <diagram name="LTT Selection Flow" id="ltt">
-    <mxGraphModel dx="1240" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="520" pageHeight="760" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="520" pageHeight="760" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OYKcFmg6mZpTmk1Wjwvg-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#000000;strokeWidth=2;fontSize=22;fontStyle=1;arcSize=10;" value="&lt;b&gt;Train / Calibration&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;/ Test split&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="230" x="531" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="OYKcFmg6mZpTmk1Wjwvg-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#1F78B4;strokeWidth=2;fontSize=22;arcSize=10;" value="TRAIN: fit scaler + PCA;&lt;br&gt;train model on each prefix k" vertex="1">
+        <mxCell id="OYKcFmg6mZpTmk1Wjwvg-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C4E2FC;strokeColor=#1F78B4;strokeWidth=2;fontSize=22;arcSize=10;" value="TRAIN: fit scaler + PCA;&lt;br&gt;train model on each prefix k" vertex="1">
           <mxGeometry height="100" width="280" x="866" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="OYKcFmg6mZpTmk1Wjwvg-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE2C0;strokeColor=#D79B00;strokeWidth=2;fontSize=22;arcSize=10;" value="CALIB: paired indicators D&lt;sub&gt;i&lt;/sub&gt;(k)&lt;br&gt;D̄(k) = mean excess-loss" vertex="1">
+        <mxCell id="OYKcFmg6mZpTmk1Wjwvg-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE0C8;strokeColor=#D79B00;strokeWidth=2;fontSize=22;arcSize=10;" value="CALIB: paired indicators D&lt;sub&gt;i&lt;/sub&gt;(k)&lt;br&gt;D̄(k) = mean excess-loss" vertex="1">
           <mxGeometry height="100" width="280" x="1251" y="170" as="geometry" />
         </mxCell>
         <mxCell id="OYKcFmg6mZpTmk1Wjwvg-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3D9E8;strokeColor=#C2528C;strokeWidth=2;fontSize=22;arcSize=10;" value="Bentkus p-value for&lt;br&gt;H&lt;sub&gt;k&lt;/sub&gt; : 𝔼[D(k)] &amp;gt; s" vertex="1">
@@ -39,6 +39,12 @@
         </mxCell>
         <mxCell id="OYKcFmg6mZpTmk1Wjwvg-24" edge="1" parent="1" source="OYKcFmg6mZpTmk1Wjwvg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2E9E6B;strokeWidth=3;endArrow=block;fontSize=22;" target="OYKcFmg6mZpTmk1Wjwvg-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORHUArT46bzdTwjbzr48-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;" value="&amp;nbsp;" vertex="1">
+          <mxGeometry height="100" width="230" x="531" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORHUArT46bzdTwjbzr48-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="280" x="866" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

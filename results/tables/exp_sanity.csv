@@ -1,0 +1,10 @@
+case,data,seed,k_hat,K,full_acc
+no_signal,mnist,0,1,100,0.102
+no_signal,mnist,1,1,100,0.098
+no_signal,mnist,2,1,100,0.101
+no_signal,fashion,0,1,100,0.098
+no_signal,fashion,1,1,100,0.103
+no_signal,fashion,2,1,100,0.093
+planted_k3,synthetic,0,3,50,0.985
+planted_k3,synthetic,1,3,50,0.99
+planted_k3,synthetic,2,3,50,0.987
